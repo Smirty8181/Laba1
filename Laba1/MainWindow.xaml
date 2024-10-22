@@ -18,18 +18,14 @@
                             <Border DockPanel.Dock="Right" Background="DarkGray" Width="60" BorderBrush="Black" BorderThickness="2" />
                             <Button x:Name="SmallButton" DockPanel.Dock="Bottom" Content="" Background="DarkGray" Width="15" Click="SmallButtonClick" />
                         </DockPanel>
-                        
                         <Border DockPanel.Dock="Right" Background="DarkGray" Width="150" BorderBrush="Black" BorderThickness="2" />
                         <Border DockPanel.Dock="Bottom" Background="DarkGray" Height="45"  BorderBrush="Black" BorderThickness="2" />
                         <Grid DockPanel.Dock="Bottom">
-                            
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="*" />
                                 <ColumnDefinition Width="2*" />
                             </Grid.ColumnDefinitions>
-                            
-                            <Border Grid.Column="0" Background="LightGray" BorderBrush="Black" BorderThickness="2" />
-                            <Border Grid.Column="1" Background="LightGray" BorderBrush="Black" BorderThickness="2" />
+                            <Border Grid.ColumnSpan="2" Background="LightGray" BorderBrush="Black" BorderThickness="2" />
                         </Grid>
                     </DockPanel>
                 </Grid>
